@@ -1,0 +1,31 @@
+/*stuff for all pages*/
+
+* {
+    font-family: inter, sans-serif;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+
+nav {
+
+    height: 48px;
+    background-color: #FFFFFF;
+
+}
+
+#buttons a{ /*individual buttons*/
+
+    background-color: #FFFFFF;
+    color: black;
+    padding: 15px 15px;
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#buttons a:hover{
+    background-color: #F0F0F0;
+}

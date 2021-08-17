@@ -1,0 +1,28 @@
+#introduction{
+
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+#introduction #picture {
+    width: 300px;
+    height: 300px;
+
+}
+
+#introduction #picture img{
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+#introduction #description{
+    font-size: 150%;
+    width: 300px;
+
+}
