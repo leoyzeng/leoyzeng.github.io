@@ -5,27 +5,54 @@
     <title>Title</title>
 
     <link rel="stylesheet" href="second-website.css">
+    <link rel="stylesheet" href="projects.css">
+
 </head>
 
-<nav>
-
-    <div id="buttons">
-
-        <a id="github" href="https://github.com/Leo1478">Github</a>
-
-        <a id="other" href="./other.html">Other</a>
-
-        <a id="resume" href="./resume.html">Resume</a>
-
-        <a id="projects" href="./projects.html">Projects</a>
-
-        <a id="home" href="./index.html">Home</a>
-
-    </div>
-
-</nav>
-
 <body>
+
+
+
+
+    <nav>
+
+        <div id="buttons">
+
+            <a id="github" href="https://github.com/Leo1478">Github</a>
+
+            <a id="other" href="./other.html">Other</a>
+
+            <a id="resume" href="./resume.html">Resume</a>
+
+            <a id="projects" href="./projects.html">Projects</a>
+
+            <a id="home" href="./index.html">Home</a>
+
+        </div>
+
+    </nav>
+
+    <main>
+
+        <div id="slides-container">
+
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="images/milky0.jpg" style="width:100%">
+                <img class="mySlides" src="images/milky1.jpg" style="width:100%">
+                <img class="mySlides" src="images/milky2.jpg" style="width:100%">
+                <img class="mySlides" src="images/milky3.jpg" style="width:100%">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="second-website.js"></script>
+    <script src="projects.js"></script>
 
 </body>
 </html>

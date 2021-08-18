@@ -1,0 +1,10 @@
+.mySlides {
+    display:none;
+}
+
+#slides-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;
+
+}
