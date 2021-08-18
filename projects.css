@@ -1,5 +1,9 @@
-.mySlides {
+.slide {
     display:none;
+}
+
+.slide-image{
+    width: 100%;
 }
 
 #slides-container{
