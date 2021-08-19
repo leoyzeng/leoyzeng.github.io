@@ -36,26 +36,29 @@
 
         <div id="slides-container">
 
-            <div class="w3-content w3-display-container">
-
-                <div class="slide">
-                    <img class="slide-image" src="images/milky0.jpg">
-                    <p class="slide-text">description for project 1</p>
-                </div>
-                <div class="slide">
-                    <img class="slide-image" src="images/milky1.jpg">
-                </div>
-                <div class="slide">
-                    <img class="slide-image" src="images/milky2.jpg">
-                </div>
-                <div class="slide">
-                    <img class="slide-image" src="images/milky3.jpg">
-                </div>
-
-
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            <div class="slide">
+                <img class="slide-image" src="images/milky0.jpg">
+                <p class="slide-text">description for project 1</p>
             </div>
+
+            <div class="slide">
+                <img class="slide-image" src="images/milky1.jpg">
+                <p class="slide-text">description for project 2</p>
+            </div>
+
+            <div class="slide">
+                <img class="slide-image" src="images/milky2.jpg">
+                <p class="slide-text">description for project 3</p>
+            </div>
+
+            <div class="slide">
+                <img class="slide-image" src="images/milky3.jpg">
+                <p class="slide-text">description for project 4</p>
+            </div>
+
+            <button class="slide-button" id="button-right" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="slide-button" id="button-left" onclick="changeSlide(1)">&#10095;</button>
+
 
         </div>
 
