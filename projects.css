@@ -1,6 +1,6 @@
 #slides-container{
     position: relative;
-    width: 60%;
+    width: 50%;
     margin: 1% auto;
     padding: 0 20px 20px;
     background-color: #F0F0F0;
@@ -9,8 +9,8 @@
 
 #header-text{
     text-align: center;
-    padding: 20px;
-    margin: 0px;
+    padding: 10px;
+    margin: 0;
 }
 
 .slide {
@@ -49,11 +49,11 @@
     width: 5%;
 }
 .slide-title{
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .slide-text{
-    margin: 20px;
+    margin: 10px 20px;
     min-height: 50px;
 
 }
