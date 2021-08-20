@@ -1,6 +1,6 @@
 #slides-container{
     position: relative;
-    width: 50%;
+    width: 60%;
     margin: 1% auto;
     padding: 0 20px 20px;
     background-color: #F0F0F0;
@@ -63,13 +63,13 @@
 }
 
 .slide-interact{
-    background-color: #82b0fa;
-    color: white;
+    background-color: #FFFFFF;
+    color: black;
     padding: 10px;
     margin: 20px 0px 20px 20px;
     text-decoration: none;
 }
 
 .slide-interact:hover{
-    background-color: #5594fa;
+    background-color: #FAFAFA;
 }
