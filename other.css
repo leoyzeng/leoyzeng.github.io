@@ -8,8 +8,8 @@
 }
 
 #header{
-    display: table;
-    margin: 0 auto;
+    text-align: center;
+    margin: auto;
 }
 
 .gallery img{
