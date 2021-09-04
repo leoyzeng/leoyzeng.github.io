@@ -1,7 +1,13 @@
 /*stuff for all pages*/
 
+@font-face {
+    font-family: Colab;
+    src: url(fonts/ColabThi.otf);
+}
+
 * {
-    font-family: inter, sans-serif;
+    font-family: "Colab", sans-serif;
+    font-size: 105%;
 }
 
 body{
@@ -12,7 +18,7 @@ body{
 
 nav {
 
-    height: 48px;
+    height: 3rem;
     background-color: #FFFFFF;
 
 }
