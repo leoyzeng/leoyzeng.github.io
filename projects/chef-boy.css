@@ -79,3 +79,19 @@ img{
 #title{
 
 }
+
+.interact-wrapper{
+    margin: 20px auto;
+}
+
+.slide-interact{
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    text-decoration: none;
+}
+
+.slide-interact:hover{
+    background-color: #FAFAFA;
+}
