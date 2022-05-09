@@ -39,7 +39,7 @@
     width: 100%;
 }
 
-#button-left{
+.button-left{
     position: absolute;
     height: 100%;
     width: 5%;
@@ -47,7 +47,7 @@
     top: 0;
 }
 
-#button-right{
+.button-right{
 
     position: absolute;
     height: 100%;
@@ -62,7 +62,6 @@
 .slide-text{
     margin: 10px 20px;
     min-height: 50px;
-
 }
 
 .interact-wrapper{
