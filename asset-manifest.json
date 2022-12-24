@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a71832a.css",
+    "main.js": "/static/js/main.368a5d52.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Leo-Zeng-software-resume.pdf": "/static/media/Leo-Zeng-software-resume.d5f961cf21df87740578.pdf",
+    "static/media/ColabThi.otf": "/static/media/ColabThi.73c237da7016feee5681.otf",
+    "index.html": "/index.html",
+    "main.0a71832a.css.map": "/static/css/main.0a71832a.css.map",
+    "main.368a5d52.js.map": "/static/js/main.368a5d52.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a71832a.css",
+    "static/js/main.368a5d52.js"
+  ]
+}
