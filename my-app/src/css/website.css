@@ -1,0 +1,42 @@
+/*stuff for all pages*/
+
+@font-face {
+    font-family: Colab;
+    src: url(../../public/fonts/ColabThi.otf);
+}
+
+* {
+    font-family: "Colab", sans-serif;
+    font-size: 105%;
+}
+
+body{
+    background-color: #FAFAFA;
+
+}
+
+
+nav {
+
+    height: 3rem;
+    background-color: #FFFFFF;
+
+}
+
+main {
+    margin-top: 3%;
+}
+
+#buttons a{ /*individual buttons*/
+
+    background-color: #FFFFFF;
+    color: black;
+    padding: 15px 15px;
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#buttons a:hover{
+    background-color: #F0F0F0;
+}
