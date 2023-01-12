@@ -10,7 +10,7 @@ const Experience = () => {
                 <div className="content">
                     <div className="text-wrapper">
                         <h2>Sep-Dec 2022</h2>
-                        <p>Software Engineer Coop</p>
+                        <p>Software Developer Coop</p>
                         <p>Plan Group</p>
                     </div>
                     <div className="company-logo">
@@ -32,12 +32,26 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+
             <div className="container left">
+                <div className="content">
+                    <div className="text-wrapper">
+                        <h2>2021-2026</h2>
+                        <p>Bachelor of Applied Science Computer Engineering</p>
+                        <p>University of Waterloo</p>
+                    </div>
+                    <div className="company-logo">
+                        <img className="logo-image" src="images/waterloo.png" alt="image"></img>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container right">
                 <div className="content">
                     <div className="text-wrapper">
                         <h2>Jul-Aug 2019</h2>
                         <p>Summer Camp Volunteering</p>
-                        <p>Plan Group</p>
+                        <p>Richmond Hill</p>
                     </div>
                     <div className="company-logo">
                         <img className="logo-image" src="images/richmondhill-logo.png" alt="image"></img>
@@ -49,3 +63,4 @@ const Experience = () => {
 }
 
 export default Experience;
+
