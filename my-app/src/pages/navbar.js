@@ -7,13 +7,14 @@ const Navbar = () => {
     return (
         <nav>
             <div id="buttons">
-                <a id="github" href="https://github.com/leoyzeng" target="_blank">Github</a>
-
-                <Link to={Pdf} target="_blank">Resume</Link>
 
                 <Link to="/other">
                     Other
                 </Link>
+
+                <a id="github" href="https://github.com/leoyzeng" target="_blank">Github</a>
+
+                <Link to={Pdf} target="_blank">Resume</Link>
 
                 <Link to="/projects">
                     Projects

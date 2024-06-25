@@ -82,10 +82,10 @@ img{
     background-color: #FFFFFF;
     color: black;
     padding: 10px;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 10px 10px 10px;
     text-decoration: none;
 }
 
 .slide-interact:hover{
-    background-color: #FAFAFA;
+    background-color: #C4C4C4;
 }
