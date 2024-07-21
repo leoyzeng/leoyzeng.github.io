@@ -14,6 +14,7 @@ import {
     Route,
     Routes,
 } from 'react-router-dom';
+import CollaborativeApproach from "./pages/experiences/collaborative-approach";
 
 
 const Main = () => {
@@ -29,6 +30,7 @@ const Main = () => {
 
             <Route path='/projects/chef-boy' element={<ChefBoy />} />
             <Route path='/projects/toony-wars' element={<ToonyWars />} />
+            <Route path='/experiences/collaborative-approach' element={<CollaborativeApproach />} />
 
         </Routes>
 

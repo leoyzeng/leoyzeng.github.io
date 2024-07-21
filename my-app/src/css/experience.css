@@ -19,6 +19,19 @@
     width: 70%;
 }
 
+
+.timeline-interact{
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    text-decoration: none;
+}
+
+.timeline-interact:hover{
+    background-color: #C4C4C4;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -40,7 +53,7 @@
 
 /* The actual content */
 .content {
-    padding: 20px 30px;
+    padding: 20px 30px 30px 30px;
     background-color: #F0F0F0;
     position: relative;
     border-radius: 6px;
@@ -146,3 +159,4 @@
         left: 0%;
     }
 }
+

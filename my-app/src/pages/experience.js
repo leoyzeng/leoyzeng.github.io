@@ -55,10 +55,14 @@ const Experience = () => {
                         <h2>Jan-Apr 2022</h2>
                         <p>Full Stack Web Developer Coop</p>
                         <p>Collaborative Approach</p>
+
+                        <a className="timeline-interact" href="experiences/collaborative-approach">More Info</a>
+
                     </div>
                     <div className="company-logo">
                         <img className="logo-image" src="images/cats-logo.png" alt="image"></img>
                     </div>
+
                 </div>
             </div>
 
