@@ -6,6 +6,37 @@ const Experience = () => {
 
     return (
         <div className="timeline">
+
+            <div className="container left">
+                <div className="content">
+                    <div className="text-wrapper">
+                        <h2>Jan-Apr 2025</h2>
+                        <p>Software Engineering Coop</p>
+                        <p>AMD</p>
+                    </div>
+                    <div className="company-logo">
+                        <div className="company-logo-helper">
+                            <img className="logo-image" src="images/amd-logo.png" alt="image"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container right">
+                <div className="content">
+                    <div className="text-wrapper">
+                        <h2>Sep-Dec 2024</h2>
+                        <p>Undergraduate Research Assistant</p>
+                        <p>University of Waterloo</p>
+                    </div>
+                    <div className="company-logo">
+                        <div className="company-logo-helper">
+                            <img className="logo-image" src="images/waterloo.png" alt="image"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="container left">
                 <div className="content">
                     <div className="text-wrapper">
@@ -56,7 +87,7 @@ const Experience = () => {
                         <p>Full Stack Web Developer Coop</p>
                         <p>Collaborative Approach</p>
 
-                        <a className="timeline-interact" href="experiences/collaborative-approach">More Info</a>
+                        {/*<a className="timeline-interact" href="experiences/collaborative-approach">More Info</a>*/}
 
                     </div>
                     <div className="company-logo">
