@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────── */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #00c6ff;
+  border-radius: 2px;
+}
+
+/* ─── Selection ─────────────────────────────────────────── */
+::selection {
+  background: rgba(0, 198, 255, 0.25);
+  color: inherit;
+}
+
+/* ─── Subtle grid background in dark mode ───────────────── */
+.dark body {
+  background-image:
+    linear-gradient(rgba(0, 198, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 198, 255, 0.025) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* ─── Utility classes ───────────────────────────────────── */
+@layer components {
+  .page-wrapper {
+    @apply min-h-screen pt-20 pb-16 px-4 sm:px-6 md:px-12 lg:px-24
+           bg-cream dark:bg-noir
+           text-ink dark:text-warm-100
+           transition-colors duration-300;
+  }
+
+  .section-label {
+    @apply font-mono text-[10px] sm:text-xs tracking-[0.25em] uppercase
+           text-amber dark:text-amber-light;
+  }
+
+  .page-title {
+    @apply font-display text-4xl sm:text-5xl md:text-7xl
+           text-ink dark:text-warm-100;
+  }
+
+  .divider {
+    @apply w-full h-px bg-warm-200 dark:bg-warm-800 my-6 sm:my-8;
+  }
+
+  /* Angular card — sharp corners, accent left-border on hover */
+  .card {
+    @apply border border-warm-200 dark:border-warm-800
+           bg-paper dark:bg-warm-900
+           rounded-none transition-all duration-300;
+  }
+  .card:hover {
+    border-left-color: #00c6ff;
+  }
+  .dark .card:hover {
+    border-left-color: #66d9f5;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2
+           px-4 sm:px-5 py-2 text-[10px] sm:text-xs tracking-widest uppercase font-mono
+           border border-amber text-amber
+           hover:bg-amber hover:text-noir
+           transition-all duration-200 rounded-none;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2
+           px-4 sm:px-5 py-2 text-[10px] sm:text-xs tracking-widest uppercase font-mono
+           border border-warm-300 dark:border-warm-700
+           text-warm-500 dark:text-warm-400
+           hover:border-amber hover:text-amber
+           transition-all duration-200 rounded-none;
+  }
+}
+
+/* ─── Noise texture overlay ─────────────────────────────── */
+.noise::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  opacity: 0.3;
+  z-index: 9999;
+}
+
+/* ─── Staggered fade-up ─────────────────────────────────── */
+.stagger > * { opacity: 0; animation: fadeUp 0.5s ease forwards; }
+.stagger > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger > *:nth-child(2) { animation-delay: 0.12s; }
+.stagger > *:nth-child(3) { animation-delay: 0.19s; }
+.stagger > *:nth-child(4) { animation-delay: 0.26s; }
+.stagger > *:nth-child(5) { animation-delay: 0.33s; }
+.stagger > *:nth-child(6) { animation-delay: 0.40s; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Mobile tap targets ────────────────────────────────── */
+@media (max-width: 640px) {
+  button, a { min-height: 44px; }
+  button.small-control, a.small-control { min-height: unset; }
+}
