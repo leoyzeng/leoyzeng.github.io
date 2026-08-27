@@ -7,7 +7,37 @@ const Experience = () => {
     return (
         <div className="timeline">
 
+            <div className="container right">
+                <div className="content">
+                    <div className="text-wrapper">
+                        <h2>Sep-Dec 2025</h2>
+                        <p>Machine Learning Engineering Intern</p>
+                        <p>Cerebras Systems</p>
+                    </div>
+                    <div className="company-logo">
+                        <div className="company-logo-helper">
+                            <img className="logo-image" src="images/cerebras-logo.png" alt="image"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="container left">
+                <div className="content">
+                    <div className="text-wrapper">
+                        <h2>May-Sep 2025</h2>
+                        <p>Undergraduate Research Assistant</p>
+                        <p>University of Waterloo</p>
+                    </div>
+                    <div className="company-logo">
+                        <div className="company-logo-helper">
+                            <img className="logo-image" src="images/waterloo.png" alt="image"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container right">
                 <div className="content">
                     <div className="text-wrapper">
                         <h2>Jan-Apr 2025</h2>
@@ -22,7 +52,7 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div className="container right">
+            <div className="container left">
                 <div className="content">
                     <div className="text-wrapper">
                         <h2>Sep-Dec 2024</h2>
@@ -37,7 +67,7 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div className="container left">
+            <div className="container right">
                 <div className="content">
                     <div className="text-wrapper">
                         <h2>Jan-Apr 2024</h2>
@@ -52,7 +82,7 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div className="container right">
+            <div className="container left">
                 <div className="content">
                     <div className="text-wrapper">
                         <h2>May-Aug 2023</h2>
@@ -66,7 +96,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-            <div className="container left">
+            <div className="container right">
                 <div className="content">
                     <div className="text-wrapper">
                         <h2>Sep-Dec 2022</h2>
@@ -80,7 +110,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-            <div className="container right">
+            <div className="container left">
                 <div className="content">
                     <div className="text-wrapper">
                         <h2>Jan-Apr 2022</h2>
@@ -96,20 +126,6 @@ const Experience = () => {
 
                 </div>
             </div>
-
-            <div className="container left">
-                <div className="content">
-                    <div className="text-wrapper">
-                        <h2>2021-2026</h2>
-                        <p>Bachelor of Applied Science Computer Engineering</p>
-                        <p>University of Waterloo</p>
-                    </div>
-                    <div className="company-logo">
-                        <img className="logo-image" src="images/waterloo.png" alt="image"></img>
-                    </div>
-                </div>
-            </div>
-
             <div className="container right">
                 <div className="content">
                     <div className="text-wrapper">

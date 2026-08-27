@@ -11,8 +11,11 @@ const Home = () => {
 
             <div id="description">
                 <p>
-                    Hi, I am Leo, a student at the University of Waterloo for computer engineering,
-                    feel free to look at some of my projects.
+                    Howdy, I'm Leo, I enjoy camping, cooking, and skiing. 
+
+                    I did my undergrad at the University of Waterloo, where I did research involving robotics and FPGAs. Along the way, I’ve had the chance to intern at companies like AMD and Cerebras Systems.
+
+                    I’m currently pursuing my master’s degree at Carnegie Mellon to learn more about robotics and machine learning.
                 </p>
             </div>
 

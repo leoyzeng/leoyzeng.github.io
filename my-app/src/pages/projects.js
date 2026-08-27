@@ -49,6 +49,22 @@ const Projects = () => {
 
                 <div className="slide">
                     <div className="slide-image-container">
+                        <img className="slide-image" src="images/botchain.png" alt="image"></img>
+                            <button className="slide-button button-right" onClick={changeSlideDown}>&#10094;</button>
+                            <button className="slide-button button-left" onClick={changeSlideUp}>&#10095;</button>
+                    </div>
+
+                    <h2 className="slide-title">Modular Robotics</h2>
+                    <p className="slide-text">A open source modular robotics kit consisting of 12 different types of modules, all 3D printed. 
+                        Users can assemble different robot configurations and control them in real time. </p>
+                    <div className="interact-wrapper">
+                        <a className="slide-interact" href="https://github.com/BotChain-Robots"
+                           target="_blank">Github</a>
+                    </div>
+                </div>
+
+                <div className="slide">
+                    <div className="slide-image-container">
                         <img className="slide-image" src="images/chef-boy0.png" alt="image"></img>
                             <button className="slide-button button-right" onClick={changeSlideDown}>&#10094;</button>
                             <button className="slide-button button-left" onClick={changeSlideUp}>&#10095;</button>
